@@ -227,7 +227,7 @@ export const SOLAR_SYSTEM = {
         orbitRotationDirection: "clockwise",
         planetSize: 0.5,
         planetAngle: (-23.4 * Math.PI) / 180,
-        planetRotationSpeed: 0.00667, // 原 0.01，飞入时地球自转放慢 1.5 倍
+        planetRotationSpeed: 0.0003, // 原 0.01，按需求调至极慢（约 6 分钟一圈）
         planetRotationDirection: "counterclockwise",
         planetTexture: SCENE_MANAGER.SCENE_ASSETS.textures.solarSystem.earth,
         planetNightTexture: SCENE_MANAGER.SCENE_ASSETS.textures.solarSystem.earthnight,
